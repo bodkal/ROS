@@ -1,0 +1,6 @@
+<launch>
+
+ <!--<include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch"/>-->
+  <node pkg="turtlebot3_pos_contrall" name="pos_control" type="pos_control.py" output="screen"/> 
+
+</launch>
